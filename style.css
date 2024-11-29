@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+body{
+    height: 1000px;
+    background: rgb(228,174,238);
+    background: radial-gradient(circle, rgba(228,174,238,1) 0%, rgba(108,104,235,1) 100%);
+}
+/*---------------------CARA---------------------*/
+.cara{
+    width: 500px;
+    height: 650px;
+    background: #f8dacf;
+    border-radius: 100% / 60% 60% 110% 110%;
+    border: 5px solid #753d3d;
+    margin: 0 auto;
+    z-index: 50;
+}
+.cabell{
+    height: 200px;
+}
+.front{
+    height: 280px;
+    text-align: center;
+}
+.ceja{
+    height: 110px;
+    width: 140px;
+    clip-path: polygon(44% 40%, 81% 45%, 100% 60%, 76% 55%, 44% 55%, 0% 60%, 8% 45%);    
+    background: rgb(73, 60, 60);
+    display: inline-block;
+    margin: 40px 50px;
+    transform: rotate(-3deg);
+    top: 200px;
+}
+.cj1{
+    transform:rotate(3deg)scaleX(-1);
+}
+.mirada{
+    height: 100px;
+    text-align: center;
+}
+.eyeliner{
+    width: 140px;
+    height: 120px;
+    clip-path: polygon(78% 15%, 99% 20%, 86% 28%, 71% 25%, 52% 22%, 32% 24%, 3% 39%, 13% 28%, 26% 18%, 49% 12%);
+    background: black;
+    display: inline-block;
+    margin: 30px 50px;
+    z-index: 100;
+    /*clip-path: polygon(65% 45%, 79% 50%, 99% 62%, 81% 70%, 58% 58%, 39% 51%, 52% 44%);*/
+}
+.e1{
+    transform: scaleX(-1);
+}
+.pestanyes{
+    bottom:459px;
+}
+.pestanya{
+    width: 15px;
+    height: 35px;
+    clip-path: polygon(80% 7%, 100% 50%, 58% 44%, 1% 45%);
+    background: black;
+    display: inline-block;
+    z-index: 110;
+    margin: -4px 95px;
+}
+.el2{
+    transform: scaleX(-1);
+}
+.ull{
+    height: 100px;
+    width: 118px;
+    background: rgb(255,252,249);
+    background: linear-gradient(0deg, rgba(255,252,249,1) 67%, rgba(196,188,189,1) 100%);
+    clip-path: polygon(0 48%, -6% 56%, 24% 18%, 70% 19%, 103% 31%, 110% 38%, 87% 71%, 75% 77%, 32% 78%, 21% 72%); border-radius: 50%;
+    transform: rotate(10deg);
+    display: inline-block;
+    margin: 10px 65px;
+    z-index: 90;
+    bottom: 160px;
+}
+.u2{
+    transform: scaleX(-1) rotate(10deg);
+}
+.mirada .ull .iris{
+    height: 67px;
+    width: 67px;
+    background: black;
+    border-radius: 100%;
+    margin: 13px 30px;
+}
+.pupila{
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    background: black;
+    border-radius: 100%;
+    bottom: -17px;
+}
+.linOjo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    box-shadow: 20px 50px black;
+    right: 20px;
+}
+.brilloOjo{
+    height: 8px;
+    width: 12px;
+    border-radius: 100%;
+    background: white;
+    margin: 0 auto;
+    top: 5px;
+    left: 10px;
+}
+.bo1{
+    left: -14px;
+}
+.brilloIris{
+    height: 20px;
+    width: 35px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background: #624638;
+    top: 35px;
+} 
+/*.reflex{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background: transparent;
+    box-shadow: 10px 0px 20px 0px rgb(148, 135, 200);
+}*/
+.nas{
+    background: rgb(87, 41, 41);
+    width: 3px;
+    height: 30px;
+    margin: 0 auto;
+    bottom: 80px;
+
+}
+.parpado{
+    width: 110px;
+    height: 60px;
+    margin: 30px 65px;
+    background:transparent;
+    display: inline-block;
+    z-index: 60;
+    bottom: 296px;
+    box-shadow: 0px -4px 0px 0px rgb(255, 182, 182);
+    border-radius: 100%;
+    transform: rotate(15deg);
+}
+.pinferior{
+    width: 50px;
+    height: 2px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 0px 0px #833a3a;
+    display: inline-block;
+    margin: 30px 85px;
+    z-index: 90;
+    bottom: 352px;
+}
+.ip2{
+    transform: scaleX(-1);
+}
+.p2{
+    transform: scaleX(-1) rotate(15deg);
+}
+.nassdw{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    box-shadow: 0px 50px 20px rgb(255, 203, 203);
+    bottom: 70px;
+    right: 20px;
+}
+.boca{
+    height: 200px;
+}
+/*----ORELLES----*/
+.orella{
+    background: #f8dacf;
+    width: 100px;
+    height: 170px;
+    border-radius: 100px 90px 0px 200px;
+    right: 80px;
+    bottom: 90px;
+    transform: rotate(-5deg);
+    display: inline-block;
+    z-index: 30;
+}
+.o2{
+    transform: scaleX(-1) rotate(-5deg);
+    left: 375px;
+}
+.interiororella{
+    width: 60px;
+    height: 90px;
+    border-radius: 100px 100px 0px 200px;
+    box-shadow: 0px -5px 0px 0px rgb(131, 58, 58);
+    margin: 0 20px;
+}
+.io2{
+    bottom: -35px;
+}
+.io4{
+    bottom: -15px;
+    left: 35px;
+    transform: rotate(-25deg);
+    width: 40px;
+}
+/*----BOCA----*/
+.toplip{
+    width: 110px;
+    height: 20px;
+    background-color: transparent;
+    /*clip-path: polygon(52% 27%, 75% 26%, 88% 35%, 100% 49%, 76% 49%, 50% 50%, 26% 49%, 0 48%, 13% 35%, 27% 26%);*/
+    border-radius: 100%;
+    box-shadow: 0px 4px 0px 0px rgb(131, 58, 58);
+    margin: 0 auto;
+    bottom: 45px;
+}
+.brilloBoca{
+    width: 10px;
+    height: 5px;
+    margin: 0  auto;
+    bottom: 30px;
+    background: white;
+    border-radius: 100%;
+}
+.barbeta{
+    width: 150px;
+    height: 120px;
+    clip-path: polygon(50% 27%, 0 0, 100% 0);
+    background: rgb(243, 220, 212);
+    margin: 0 auto;
+    bottom: 150px;
+    z-index: 50;
+}
+.b2{
+    background: #753d3d;
+    bottom: 265px;
+    z-index: 40;
+}
+/*---------------------CUELLO---------------------*/
+.coll{
+    width: 400px;
+    height: 200px;
+    clip-path: polygon(26% 6%, 75% 6%, 72% 33%, 75% 100%, 25% 100%, 29% 33%);
+    background:#f8dacf;
+    margin: 0 auto;
+    bottom: 70px;
+    z-index: 10;
+}
+.sdwColl{
+    width: 300px;
+    height: 130px;
+    background: #f5c6c6;
+    margin: 0 auto;
+    clip-path: polygon(50% 76%, 100% 38%, 100% 0, 0 0, 0% 38%);
+    top: 30px;
+}
+/*.samarreta{
+    height: 400px;
+    width: 750px;
+    background: #808000;
+    margin: 0 auto;
+    bottom: 4130px;
+    border-radius: 200px 200px 0 0;
+}*/
+/*---------------------CABELL---------------------*/
+.serrell{
+    width: 820px;
+    height: 600px;
+    margin: 0 auto;
+    z-index: 500;
+    top: 400px;
+}
+.flequillo{
+    z-index: 200;
+    border-radius: 100%;
+    background:#3b2121;
+    margin: 0 auto;
+} 
+.f1{
+    width: 200px;
+    height: 280px;
+    top: 300px;
+    right: 220px;
+    transform: rotate(20deg);
+    box-shadow: 10px 5px 0 #241313;
+}
+.f2{
+    width: 130px;
+    height: 160px;
+    top: 15px;
+    right: 110px;
+    transform: rotate(20deg);
+}
+.f3{
+    width: 200px;
+    height: 240px;
+    bottom: 300px;
+    right: 25px;
+    transform: rotate(20deg);
+}
+.f4{
+    width: 200px;
+    height: 280px;
+    bottom: 450px;
+    left: 200px ;
+    transform: rotate(-15deg);
+}
+.f5{
+    width: 175px;
+    height: 180px;
+    bottom: 800px;
+    left: 120px;   
+}
+.f6{
+    width: 195px;
+    height:275px;
+    bottom: 1000px;
+    right: 195px;
+    transform: rotate(45deg);
+}
+.f7{
+    width: 100px;
+    height:100px;
+    bottom: 995px;
+    right: 152px;
+    background: transparent;
+    box-shadow: 10px 10px 0 #3b2121;
+}
+.f8{
+    width: 70px;
+    height:70px;
+    bottom: 995px;
+    right: 134px;
+    background: transparent;
+    box-shadow: -10px 10px 0 #3b2121;width: 85px;
+}
+.f9{
+    width: 100px;
+    height:100px;
+    bottom: 1547px;
+    left: 21px;
+    background: transparent;
+    box-shadow: 11px -12px 0 #3b2121;
+}
+.f10{
+    width: 140px;
+    height:180px;
+    bottom: 1200px;
+    right: 245px;
+}
+/*--PELO DETRÁS--*/
+.pelo{
+    border-radius: 100%;
+    background: #3b2121;
+    margin: 0 auto;
+    z-index: -10px;
+}
+.c1{
+    height: 950px;
+    width: 815px;
+    bottom: 750px;    
+}
+.c3{
+    height: 250px;
+    width: 250px;
+    left: 355px;
+    bottom: 1300px;
+}
+.c4{
+    height: 310px;
+    width: 285px;
+    left: 365px;
+    bottom: 1390px;
+}
+.c5{
+    height: 282px;
+    width: 327px;
+    right: 95px;
+    bottom: 2490px;
+}
+.c6{
+    height: 300px;
+    width: 350px;
+    left: 95px;
+    bottom: 2740px;
+}
+.c7{
+    height: 400px;
+    width: 350px;
+    left: 222px;
+    bottom: 2935px; 
+}
+.c8{
+    height: 500px;
+    width: 450px;
+    left: 273px;
+    bottom: 3200px; 
+}
+.c9{
+    height: 400px;
+    width: 350px;
+    left: -280px;
+    bottom: 3850px; 
+}
+.c10{
+    height: 400px;
+    width: 350px;
+    left: -280px;
+    bottom: 3940px; 
+}
+.c11{
+    height: 245px;
+    width: 232px;
+    left: -350px;
+    bottom: 4580px; 
+    background: transparent;
+    box-shadow: -15px -5px 0px #3b2121;
+}
+
+.cap{
+    top:-350px;
+}
